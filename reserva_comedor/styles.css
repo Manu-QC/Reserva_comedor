@@ -1,0 +1,83 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5DC; /* Crema */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #800000; /* Granate */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #800000; /* Granate */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #800000; /* Granate */
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #800000; /* Granate */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #A52A2A; /* Tonalidad más clara de granate */
+}
+
+.back-btn {
+    background-color: #D3D3D3; /* Gris claro para el botón de regresar */
+    color: #000000;
+}
+
+.back-btn:hover {
+    background-color: #A9A9A9;
+}
+
+.admin-section {
+    margin-top: 20px;
+}
+
+.admin-section h3 {
+    color: #800000; /* Granate */
+    margin-bottom: 15px;
+}
